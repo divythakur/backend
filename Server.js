@@ -16,6 +16,6 @@ const userroute=require('./routes/user')
 
 app.use('/user',userroute);
 
+const PORT=process.env.PORT || 8000;
 
-
-app.listen(8000,()=>console.log("running on 8000"));
+app.listen(PORT,()=>console.log("running on ${PORT}"));
