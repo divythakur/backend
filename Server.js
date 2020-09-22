@@ -18,4 +18,8 @@ app.use('/user',userroute);
 
 const PORT=process.env.PORT || 8000;
 
+<<<<<<< HEAD
 app.listen(PORT,()=>console.log(`running on ${PORT}`));
+=======
+app.listen(PORT,()=>console.log("running on ${PORT}"));
+>>>>>>> 688bd0fd857a7df5072aff9a2bf9184d1c252151
